@@ -69,6 +69,6 @@ void showAddr(char *str, struct sockaddr_in *a)
     printf("%03d.", p[0] );
     printf("%03d.", p[1] );
     printf("%03d.", p[2] );
-    printf("%03d!", p[3] );
+    printf("%03d:", p[3] );
     printf("%u\n", ntohs(a->sin_port));
 }
