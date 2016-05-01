@@ -9,9 +9,9 @@ gcc -g - Wall -DTRACE -o client_test Client0.c mybsdfun.c ------> it will create
 ```
 #Launch client and server test form the terminal  
                     ```
-                  ./server --> to launch the server \s\s 
-                 ./test    --> to launch the client \s\s
-                 the server should be launch first otherwise the client will always failed.\s\s 
+                  ./server --> to launch the server  
+                 ./test    --> to launch the client  
+                 the server should be launch first otherwise the client will always failed.  
                  ```
 
 
