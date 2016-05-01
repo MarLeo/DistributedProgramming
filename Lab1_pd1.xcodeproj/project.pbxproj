@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		711AD04D1CD52FFF004B59F2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 711AD04C1CD52FFF004B59F2 /* main.c */; };
+		71B9C9221CD6723F00C46C54 /* mybsdfun.c in Sources */ = {isa = PBXBuildFile; fileRef = 71B9C9201CD6723F00C46C54 /* mybsdfun.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		711AD0491CD52FFF004B59F2 /* Lab1_pd1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab1_pd1; sourceTree = BUILT_PRODUCTS_DIR; };
 		711AD04C1CD52FFF004B59F2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		71B9C9201CD6723F00C46C54 /* mybsdfun.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mybsdfun.c; path = "../../../Desktop/Dossiers Master/EchoSamples_pd1/mybsdfun.c"; sourceTree = "<group>"; };
+		71B9C9211CD6723F00C46C54 /* mysocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mysocket.h; path = "../../../Desktop/Dossiers Master/EchoSamples_pd1/mysocket.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		711AD04B1CD52FFF004B59F2 /* Lab1_pd1 */ = {
 			isa = PBXGroup;
 			children = (
+				71B9C9201CD6723F00C46C54 /* mybsdfun.c */,
+				71B9C9211CD6723F00C46C54 /* mysocket.h */,
 				711AD04C1CD52FFF004B59F2 /* main.c */,
 			);
 			path = Lab1_pd1;
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				711AD04D1CD52FFF004B59F2 /* main.c in Sources */,
+				71B9C9221CD6723F00C46C54 /* mybsdfun.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +245,7 @@
 				711AD0521CD52FFF004B59F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
